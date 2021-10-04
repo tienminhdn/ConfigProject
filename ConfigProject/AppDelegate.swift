@@ -15,6 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = UINavigationController(rootViewController: ViewController())
         window?.makeKeyAndVisible()
+        
+        let path = Bundle.main.path(forResource: "en", ofType: "lproj")
+        let langBundle = Bundle(path: path!)
+        
+        let hello = NSLocalizedString("hello", bundle: langBundle!, comment: "")
+        print(hello)
+        
         return true
     }
 }
