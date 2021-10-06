@@ -9,4 +9,7 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 
-BUNDLE_INDENTIFIER = 'minh.com.configproject.dev'
+BUNDLE_INDENTIFIER = minh.com.configproject.dev
+DISPLAY_NAME = ConfigProjectDev
+
+BASE_URL = https:\/\/minh
