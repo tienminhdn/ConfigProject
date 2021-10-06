@@ -22,6 +22,7 @@
 		1AD128F8270DFFFB0053CB6B /* HomeViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD128F5270DFFFB0053CB6B /* HomeViewVM.swift */; };
 		1AD128F9270DFFFB0053CB6B /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AD128F6270DFFFB0053CB6B /* HomeView.xib */; };
 		1AD128FC270E02EC0053CB6B /* FileConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD128FB270E02EC0053CB6B /* FileConfig.swift */; };
+		1AD128FE270E0AB80053CB6B /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD128FD270E0AB80053CB6B /* UIViewExt.swift */; };
 		1AFEC60C270D827800D3625E /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFEC60B270D827800D3625E /* BaseView.swift */; };
 		41D52F9365D7D5C95E0E96C4 /* Pods_ConfigProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 306C8F7C9164B79E6E4740D5 /* Pods_ConfigProject.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		1AD128F5270DFFFB0053CB6B /* HomeViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewVM.swift; sourceTree = "<group>"; };
 		1AD128F6270DFFFB0053CB6B /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
 		1AD128FB270E02EC0053CB6B /* FileConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileConfig.swift; sourceTree = "<group>"; };
+		1AD128FD270E0AB80053CB6B /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		1AFEC60B270D827800D3625E /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		306C8F7C9164B79E6E4740D5 /* Pods_ConfigProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConfigProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D277920B1813C2192DBD727 /* Pods-ConfigProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfigProject.debug.xcconfig"; path = "Target Support Files/Pods-ConfigProject/Pods-ConfigProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				1A353DD8270B62D700760BEC /* UIColorExt.swift */,
+				1AD128FD270E0AB80053CB6B /* UIViewExt.swift */,
 			);
 			path = Ext;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD128FE270E0AB80053CB6B /* UIViewExt.swift in Sources */,
 				1AD128F7270DFFFB0053CB6B /* HomeView.swift in Sources */,
 				1AD128F1270DFD200053CB6B /* HomeViewControler.swift in Sources */,
 				1A353DD5270B5DD800760BEC /* App.swift in Sources */,

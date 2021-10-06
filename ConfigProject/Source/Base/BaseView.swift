@@ -46,6 +46,7 @@ class BaseView: UIView, XibNameable {
 
         if let xib = xib, let view = bundle.loadNibNamed(xib, owner: self)?.first as? UIView {
             addSubview(view)
+            view.anchorToSuperView()
         }
     }
 }

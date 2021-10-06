@@ -1,6 +1,6 @@
 import UIKit
 
-final class HomeView: UIView {
+final class HomeView: BaseView {
 
     // MARK: - IBOutlets
 
