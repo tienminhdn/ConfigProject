@@ -27,6 +27,7 @@
    *View Model
         Đây là lớp trung gian giữa View và Model và xem như thành phần thay thế cho Controller trong mô hình MVC.
 
+![](./ConfigProject/img/mvvm.png)
 ## 3. Setup các Package Manager(SPM, Cocoapods, Carthage)
 
 ## 4. Cấu trúc lại các folder trong project.
