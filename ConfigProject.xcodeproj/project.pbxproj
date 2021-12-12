@@ -152,7 +152,6 @@
 			isa = PBXGroup;
 			children = (
 				1AFEC60A270D825800D3625E /* Controller */,
-				1AFEC609270D825100D3625E /* Control */,
 				1AFEC608270D824300D3625E /* Base */,
 				1A87A3E82709FF7F00C850BC /* ViewController.swift */,
 			);
@@ -181,13 +180,6 @@
 				1AFEC60B270D827800D3625E /* BaseView.swift */,
 			);
 			path = Base;
-			sourceTree = "<group>";
-		};
-		1AFEC609270D825100D3625E /* Control */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Control;
 			sourceTree = "<group>";
 		};
 		1AFEC60A270D825800D3625E /* Controller */ = {
