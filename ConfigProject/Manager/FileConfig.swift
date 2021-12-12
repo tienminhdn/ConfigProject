@@ -39,10 +39,7 @@ final class AppConfiguration {
 enum AppConfigurationKeys: String {
     // Application
     case displayName = "DISPLAY_NAME"
-    
-//    case bundleIndentifier = "BUNDLE_INDENTIFIER"
-
-//    // API
+    case bundleIndentifier = "BUNDLE_INDENTIFIER"
     case baseURL = "BASE_URL"
 //
 //    // BASE 2
